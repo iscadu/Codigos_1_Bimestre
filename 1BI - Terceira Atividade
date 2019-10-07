@@ -1,0 +1,19 @@
+Console.WriteLine("Insira um número");
+double numeroUm = double.Parse(Console.ReadLine());
+
+Console.WriteLine("Insira outro número");
+double numeroDois = double.Parse(Console.ReadLine());
+
+double multiplicação;
+multiplicação = numeroDois * numeroUm;
+
+double sucessor;
+sucessor = multiplicação + 1;
+
+double antecessor;
+antecessor = multiplicação - 1;
+
+Console.WriteLine(antecessor);
+Console.WriteLine(multiplicação);
+Console.WriteLine(sucessor);
+Console.ReadLine();
