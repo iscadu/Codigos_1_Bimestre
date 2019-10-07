@@ -1,0 +1,30 @@
+Console.WriteLine("Insira um número");
+Double numero1 = Double.Parse(Console.ReadLine());
+Console.WriteLine("Insira um número");
+Double numero2 = Double.Parse(Console.ReadLine());
+		
+Console.WriteLine("Você deseja somar(+), subtrair(-), dividir(/) ou multiplicar(*)?");
+string operacao = Console.ReadLine();
+		
+switch(operacao)
+{	
+  case "somar, +":
+  Double soma = numero1 + numero2;
+  Console.WriteLine("O resultado é: " + soma);
+  break;
+
+  case "subtrair, -":
+  Double subtracao = numero1 - numero2;
+  Console.WriteLine("O resultado é: " + subtracao);
+  break;
+
+  case "dividir, /": b
+  Double divisao = numero1 / numero2;
+  Console.WriteLine("O resultado é: " + divisao);
+  break;
+
+  default:
+  Double multiplicacao = numero1 * numero2;
+  Console.WriteLine("O resultado é: " + multiplicacao);
+  break;
+}
