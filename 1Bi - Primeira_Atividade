@@ -1,0 +1,7 @@
+ int numeroUm = 10;
+ int numeroDois = 15;
+ int resultado;
+
+ resultado = numeroDois + numeroUm;
+ Console.WriteLine(resultado);
+ Console.Read();
