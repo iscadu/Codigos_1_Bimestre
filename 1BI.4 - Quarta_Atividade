@@ -1,0 +1,22 @@
+Console.WriteLine("É preciso estudar!");
+Console.WriteLine("Eduardo");
+
+Console.WriteLine("Insira um número");
+int numeroUm = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Insira outro número");
+int numeroDois = int.Parse(Console.ReadLine());
+
+int multiplicação;
+multiplicação = numeroDois * numeroUm;
+
+int sucessor;
+sucessor = multiplicação + 1;
+
+int antecessor;
+
+antecessor = multiplicação - 1;
+Console.WriteLine(antecessor);
+Console.WriteLine(multiplicação);
+Console.WriteLine(sucessor);
+Console.ReadLine();
