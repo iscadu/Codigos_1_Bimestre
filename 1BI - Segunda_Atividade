@@ -1,0 +1,11 @@
+Console.WriteLine("digite um número");
+int numeroUm = int.Parse(Console.ReadLine());
+
+Console.WriteLine("digite outro numero");
+int numeroDois = int.Parse(Console.ReadLine());
+
+int soma;
+soma = numeroDois + numeroUm;
+
+Console.WriteLine("o resultado é: " + soma);
+Console.Read();
